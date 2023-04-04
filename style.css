@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Alice');
+
+
+body {
+    font-family: sans-serif;
+}
+
+#current-image-container {
+    padding: 25px;
+    background-color: #000;
+    color: #fff;
+}
+h1,
+h3 {
+    margin: 15px 0;
+}
+
+#img-container {
+    width: 100%;
+    height: 70vh;
+}
+
+#img-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+#search-history>li {
+    list-style: none;
+    cursor: pointer;
+}
